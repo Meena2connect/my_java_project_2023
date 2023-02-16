@@ -8,19 +8,19 @@ public class Program04 {
 		int b=90;
 		int c=60;
 		System.out.println("start program");
-		if(a>b)
+		if(a>b && a>c)
 		{
 			System.out.println("a is greater");
 			
 		}
-		else if(a<b)
+		else if(b>a && b>c)
 		{
 			System.out.println("b is greater");
 			
 		}
-		else if(a>c)
+		else if(c>a && c>b)
 		{
-			System.out.println("a is greater");
+			System.out.println("c is greater");
 		}
 		else
 		{
